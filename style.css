@@ -13,6 +13,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  max-height: 100%;
 }
 
 .trans_backg {
