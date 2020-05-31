@@ -55,6 +55,26 @@ form {
   width: 100%;
 }
 
+textarea {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  min-height: 120px;
+}
+
+.main_label {
+  margin-bottom: 20px;
+}
+
+#role_sel {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 /* component style */
 
 .form_wrap {
@@ -76,6 +96,17 @@ form {
 body {
   background-color: white;
 }
+
+input {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 /* typography */
 
 p {
@@ -102,48 +133,15 @@ h2 {
 span {
   font-size: 20px;
 }
-input[type="text"] {
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  font-size: 15px;
-}
 
-input[type="number"] {
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  font-size: 15px;
-}
-
-#role_sel {
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+input {
   font-size: 15px;
 }
 
 .check {
   font-size: 25px;
 }
-textarea {
-  margin-top: 20px;
-  margin-bottom: 40px;
-  min-height: 120px;
-}
 
-.main_label {
-  margin-bottom: 20px;
+#role_sel {
+  font-size: 15px;
 }
