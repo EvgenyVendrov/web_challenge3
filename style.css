@@ -39,8 +39,16 @@ h2 {
 .input_wrap {
   margin-top: 30px;
   display: flex;
-  flex-direction: column;
   width: 100%;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+  text-align: left;
 }
 
 form {
@@ -91,6 +99,9 @@ h2 {
   font-weight: 700;
 }
 
+span {
+  font-size: 20px;
+}
 input[type="text"] {
   display: inline-block;
   border: 1px solid #ccc;
@@ -122,4 +133,17 @@ input[type="number"] {
   padding-top: 12px;
   padding-bottom: 12px;
   font-size: 15px;
+}
+
+.check {
+  font-size: 25px;
+}
+textarea {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  min-height: 120px;
+}
+
+.main_label {
+  margin-bottom: 20px;
 }
